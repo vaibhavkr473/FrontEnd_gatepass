@@ -1,0 +1,119 @@
+/* Form styling */
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    border: 2px solid black;
+    animation: fadeIn 0.5s ease-in-out;
+    margin: 15px;
+}
+
+/* Center form */
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Other existing styles */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+input[type="time"],
+input[type="date"],
+input[type="text"],
+textarea,
+select {
+    width: calc(100% - 15px);
+    height: 40px;
+    padding: 0px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #218838;
+}
+
+button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+
+
+body {
+    background-image: url(back_2.jpeg);
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    border-radius: 12px;
+}
+
+.navbar-custom {
+    border: 2px solid black;
+}
+
+/* Cards */
+.card {
+    margin: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.card-body {
+    padding: 15px;
+}
